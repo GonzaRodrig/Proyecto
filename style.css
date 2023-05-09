@@ -1,0 +1,117 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar-brand {
+    width: 200px;
+    height:200px;
+    
+}
+.carousel-item{
+    width: 50%;
+    height: 30%;  
+}
+
+.historia {
+    text-align: center;
+    justify-content: center;
+}
+
+footer {
+    padding: 100px;
+}
+
+p {
+    color: rgb(68, 3, 65);
+}
+
+#selector-id {
+    color: red;
+}
+
+.selector-class {
+    color: #000000;
+}
+
+.otro-selector-class {
+    font-style: italic;
+}
+
+ul {
+    color: rgb(0, 0, 0);
+    font-style: italic;
+}
+
+header {
+    background-color: #a82710;
+}
+
+h1 {
+    background-color: #a82710;
+    text-align: center;
+}
+
+body {
+    background-color: beige;
+}
+
+main {
+    margin-top: 40px;
+    padding: 40px;
+}
+
+/* MENU */
+
+.menu {
+    list-style-type: none;
+    background-color: rgb(163, 146, 146);
+    padding-inline: 70px;
+}
+
+.menu_item {
+    display: inline-block;
+    margin-inline: 70px;
+}
+
+.menu_item a {
+    color: #080000;
+    text-decoration: #000000;
+}
+
+.menu_item a:hover {
+    text-decoration: underline;
+}
+
+/* PRODUCTOS TARJETAS */
+
+.tarjeta {
+    width: 300px;
+    background-color:rgb(117, 109, 98);
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.tarjeta_img {
+    width: 100%;
+}
+
+.tarjeta_titulo {
+    font-size: 30px;
+}
+
+.tarjeta_boton {
+    background-color: rgb(197, 158, 110);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+}   
