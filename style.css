@@ -22,6 +22,7 @@
 .historia {
     text-align: center;
     justify-content: center;
+    color: #ffffff;
 }
 
 footer {
@@ -59,12 +60,17 @@ h1 {
 }
 
 body {
-    background-color: beige;
+    background-color: rgb(230, 222, 222);
 }
 
 main {
     margin-top: 40px;
     padding: 40px;
+}
+
+.hero {
+    background-image: url("./assets/images/famyk.jpg");
+    height: 130vh;
 }
 
 /* MENU */
@@ -81,8 +87,8 @@ main {
 }
 
 .menu_item a {
-    color: #080000;
-    text-decoration: #000000;
+    color: #ffffff;
+    text-decoration: #ffffff;
 }
 
 .menu_item a:hover {
@@ -93,7 +99,7 @@ main {
 
 .tarjeta {
     width: 300px;
-    background-color:rgb(117, 109, 98);
+    background-color:#e2ac60;
     padding: 10px;
     border-radius: 10px;
     display: inline-block;
@@ -109,7 +115,7 @@ main {
 }
 
 .tarjeta_boton {
-    background-color: rgb(197, 158, 110);
+    background-color: #e2ac60;
     border: none;
     padding: 10px;
     border-radius: 10px;
