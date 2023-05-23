@@ -1,0 +1,22 @@
+.menu {
+    list-style-type: none;
+    background-color: rgb(163, 146, 146);
+    padding-inline: 70px;
+    grid-gap: 100px
+}
+
+.menu_item {
+    display: inline-block;
+    margin-inline: 70px;
+}
+
+.menu_item a {
+    color: #ffffff;
+    text-decoration: #ffffff;
+    padding: 1rem;
+    transition: 1s;
+}
+
+.menu_item a:hover {
+    text-decoration: underline;
+}

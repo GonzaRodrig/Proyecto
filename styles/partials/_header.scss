@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar-brand {
+    width: 200px;
+    height:200px;
+    
+}
+.carousel-item{
+    width: 50%;
+    height: 30%;  
+}
+
+.historia {
+    text-align: center;
+    justify-content: center;
+    color: #000000;
+}
+
+footer {
+    padding: 80px;
+}
+
+#selector-id {
+    color: red;
+}
+
+.selector-class {
+    color: #000000;
+}
+
+.otro-selector-class {
+    font-style: italic;
+}
+
+ul {
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    padding-inline: 70px;
+}
+
+header {
+    background-color: #a82710;
+}
+
+h1 {
+    background-color: #a82710;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(230, 222, 222);
+}
+
+main {
+    margin-top: 40px;
+    padding: 40px;
+}
+
+.hero {
+    background-image: url("./assets/images/famyk.jpg");
+    height: 130vh;
+}
+

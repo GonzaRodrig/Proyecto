@@ -26,11 +26,7 @@
 }
 
 footer {
-    padding: 100px;
-}
-
-p {
-    color: rgb(68, 3, 65);
+    padding: 80px;
 }
 
 #selector-id {
@@ -48,6 +44,7 @@ p {
 ul {
     color: rgb(0, 0, 0);
     font-style: italic;
+    padding-inline: 70px;
 }
 
 header {
@@ -79,6 +76,7 @@ main {
     list-style-type: none;
     background-color: rgb(163, 146, 146);
     padding-inline: 70px;
+    grid-gap: 100px
 }
 
 .menu_item {
@@ -89,6 +87,8 @@ main {
 .menu_item a {
     color: #ffffff;
     text-decoration: #ffffff;
+    padding: 1rem;
+    transition: 1s;
 }
 
 .menu_item a:hover {
@@ -115,7 +115,7 @@ main {
 }
 
 .tarjeta_boton {
-    background-color: #e2ac60;
+    background-color: #f0f0f0;
     border: none;
     padding: 10px;
     border-radius: 10px;
