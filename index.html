@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FAMYK casa de repuestos</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Venta de Repuestos">
+    <meta name="keywords" content="REPUESTOS,MOTOS,LUBRICENTRO">
+    <link rel="shortcut icon" href="./assets/images/famyk.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="./estilo.css" />
+    <title>FAMYK</title>
 </head>
+
 <body>
-    
-    <header class="navbar navbar-expand-lg bg-orange navbar-dark">
+
+    <header class="navbar navbar-expand-lg  navbar-dark">
         <div class="container">
             <a class="navbar-brand" href="./index.html"><img src="./assets/images/famyk.jpg" alt="logo"
                     class="w-75"></a>
@@ -45,46 +51,71 @@
     </header>
 
     <main>
-        <section class="hero">
-            <h1 class="hsitoria">FAMYK - Nuestra historia</h1>
-            <h3 class="historia"> Surgió en el 2010, debido a que siempre estuve ligado al sector automotor
-                (trabaje en talleres de
-                varias especialidades). En todos siempre trate de fortalecer el área publicidad y sin querer me estaba
-                encargando completamente de éstas.
-                Así fue como comencé a estudiar algunos programas de diseño gráfico para poder cumplir con lo que estos
-                me pedían, pero convencido de que siempre trabajaría con este sector, pues mas allá de ser potenciales
-                clientes, con muchos ya tenia una relación de amistad.
-                Contamos con un equipo que se capacita permanentemente a las nuevas tecnologías.</h3>
+        <section class="container">
+            <div class="row">
+                <h1 class="hsitoria"> <b>FAMYK</b></h1>
+                <div class="col-lg-6 mt-5 order-lg-last">
+                    <img class="img-fluid" src="./assets/images/famyk.jpg" alt="">
+                </div>
+
+                <div class="col-lg-6 mt-4 text-center">
+                    <h3 class="historias"> Surgió en el 2010, debido a que siempre estuve ligado al sector automotor
+                        (trabaje en talleres de
+                        varias especialidades). En todos siempre trate de fortalecer el área publicidad y sin querer me
+                        estaba
+                        encargando completamente de éstas.
+                        Así fue como comencé a estudiar algunos programas de diseño gráfico para poder cumplir con lo
+                        que
+                        estos
+                        me pedían, pero convencido de que siempre trabajaría con este sector, pues mas allá de ser
+                        potenciales
+                        clientes, con muchos ya tenia una relación de amistad.
+                        Contamos con un equipo que se capacita permanentemente a las nuevas tecnologías.</h3>
+                </div>
+            </div>
         </section>
-        <footer>
-            <div>
-                <div class="direccion">
-                    <h4>Direccion</h4>
-                    <ul>
+    </main>
+
+    <footer class="piepagina contariner fluid bg-orange mt-4">
+        <div class="container">
+            <div class="row justify-content-lg-between align-items-lg-center">
+                <div class="col-lg-3 py-2">
+                    <h3 class="text-center-lg">Direccion</h3>
+                    <div><i class="fa-solid fa-location-dot"></i>
                         <li>Aritobulo del Valle 1172</li>
                         <li>Zona Comercial</li>
                         <li>Algarrobal, MENDOZA</li>
-                    </ul>
+                    </div>
                 </div>
-                <div class="redes">
-                    <h4>Nuestras Redes</h4>
-                    <ul>
-                        <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
-                        <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
-                        <li><a href="https://ar.pinterest.com/" target="_blank">Pinterest</a></li>
-                    </ul>
+
+                <div class="col-lg-3 py-3 p-lg-0">
+                    <h3>Nuestras Redes</h3>
+                    <div class="fa-solid fa-location-dot ">
+                        <div class="redes">
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-instagram"></i>
+                            <i class="bi bi-whatsapp"></i>
+                        </div>
+                    </div>
                 </div>
-                <div class="horarios">
-                    <h4>Horarios de Atencion</h4>
-                    <ul>
-                        <li> Lunes a Sabados de 08:30 a 20:30</li>
-                        <li> Domingos de 9 a 13</li>
-                    </ul>
+
+                <div class="col-lg-3 py-3 m-2">
+                    <h3 class="text-center-md">Horarios de Atencion</h3>
+                    <div>
+                        <li> Lunes a Sabados de 09:00 a 20:00</li>
+                        <li> Domingos y Feriados 09:00 a 13:00</li>
+                    </div>
                 </div>
             </div>
-        </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+    <script src="./js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 </body>
